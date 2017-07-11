@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Exercise Module HTML Test</title>
+<script type="text/javascript" src="assets/swfobject/swfobject.js"></script>
+<style type="text/css">
+	/* hide from ie on mac \*/
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#flashcontent {
+		height: 100%;
+	}
+	/* end hide */
+
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #CDCDCD;
+	}
+
+  #alternativeContent { text-align:center; }
+</style>
+
+<script type="text/javascript">
+	var flashvars = {};
+	flashvars.id 					= "28";
+	flashvars.name 					= "Brent M";
+	flashvars.lang 					= "en-au";
+	flashvars.account_id			= "27";
+	flashvars.credits				= "123456789";
+	flashvars.points				= "123456789";
+	flashvars.passrate				= "80";
+	
+	flashvars.scaleable 			= "false";
+	flashvars.version 				= "exercise-module-html-test";
+//	flashvars.errorReportVersion 	= "28";
+//	flashvars.errorReportVersionNum = "28";
+//	flashvars.devMode 				= "true";
+	flashvars.mainURL 				= "http://localhost:8080";
+	flashvars.assetURL 				= "http://intrepica-support-dir.literacyplanet.com";//"http://fake-s3.com";
+	flashvars.s3SwfURL				= "./swf/";
+	flashvars.baseURL				= "spelling-module.swf";
+	flashvars.elementId				= "myElementId";
+	
+	flashvars.JSON					= '[{"word":"cat","sentence":"cat sat on the mat"},{"word":"dog","sentence":"dog sat on the mat"},{"word":"rat","sentence":"rat sat on the mat"},{"word":"hat","sentence":"hat sat on the mat"},{"word":"bat","sentence":"bat sat on the mat"}]';;
+	flashvars.gameId 				= "111";
+	flashvars.spellingListId 		= "16"; //1 small words, 77 medium words, 846 long words, (list 16 is a small wordFinder grid but frequently has issues fitting all of the word in)
+	flashvars.subject				= "Spelling";
+	flashvars.scoreType				= "free_learning";
+		
+		
+	var params = {};
+	params.bgcolor 					= "#7F7F7F";
+	params.allowScriptAccess 		= "always";
+	
+	var attributes = {};
+	swfobject.embedSWF("./swf/module-preloader.swf", "alternativeContent", "980", "600", "11.0.0", "assets/swfobject/expressInstall.swf", flashvars, params, attributes);
+</script>
+
+</head>
+<body>
+
+<div id="alternativeContent">
+<a href="http://www.adobe.com/go/getflashplayer"><img src="images/no-flash-player.jpg" width="639" height="476" alt="Looks like you don't have the latest version of Flash Player installed. Not to worry, you can click here to download it (it's free)!" /></a>
+</div>
+
+
+</body>
+</html>
